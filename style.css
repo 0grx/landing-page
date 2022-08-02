@@ -8,7 +8,6 @@ body {
     justify-content: space-between; 
     background-color: #1F2937;
     align-items: center;
-    
     margin: -10px -10px 0px -10px;
 }
 
@@ -18,7 +17,6 @@ body {
 }
 
 .header-links {
-    
     padding: 10px 150px 10px 10px;
     font-size: 18px;
 }
@@ -40,4 +38,37 @@ h3 {
 .introduction {
     display: flex;
     flex-direction: row;
+    background-color: #1F2937;
+    margin: 0px -10px 0px -10px;
+    padding: 30px 0px 30px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro-left {
+    flex-flow: column wrap;
+    padding: 50px 90px 100px 150px;
+    max-width: 400px;
+    color: #E5E7EB;
+}
+
+.intro-right {
+    padding: 50px 150px 100px 75px;
+    justify-content: flex-end;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: #E5E7EB;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
 }
