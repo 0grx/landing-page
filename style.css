@@ -42,18 +42,27 @@ h3 {
     margin: 0px -10px 0px -10px;
     padding: 30px 0px 30px 0px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 10px;
+}
+
+.button-intro {
+    margin: 10px;
+}
+
+.p-intro {
+    margin: 10px;
 }
 
 .intro-left {
     flex-flow: column wrap;
-    padding: 50px 90px 100px 150px;
+    padding: 50px 75px 100px 150px;
     max-width: 400px;
     color: #E5E7EB;
 }
@@ -107,6 +116,7 @@ h2 {
 .subtext {
     color: #909090;
     text-align: center;
+    margin: 5px;
 }
 
 .quote {
