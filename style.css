@@ -1,7 +1,7 @@
-body {
-    
+p {
+    margin: 0px;
+    padding: 0px;
 }
-
 .header {
     display: flex;
     flex-direction: row;
@@ -128,4 +128,50 @@ h2 {
     font-weight: bold;
     margin: 0;
     padding: 10px 80px 0 200px;
+}
+
+.footer-background {
+    display: flex;
+    flex-direction: row;
+    background-color: #F9FAF8;
+    justify-content: center;
+
+}
+
+.footer-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 300px 100px 300px;
+    padding: 35px 50px 35px 75px;
+    background-color: #3882F6;
+    border-radius: 8px
+}
+
+h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.p-footer {
+    font-size: 16px;
+    color: #F9FAF8;
+}
+
+.footer-left {
+    padding: 0 50px 0 0;
+    white-space: nowrap;
+}
+
+.footer-right {
+    padding: 0 75px 0 75px;
+    white-space: nowrap;
+}
+
+.footer-button {
+    border: 1px solid #F9FAF8;
+    border-radius: 8px;
 }
